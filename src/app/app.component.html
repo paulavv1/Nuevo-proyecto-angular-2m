@@ -1,4 +1,44 @@
-<style>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Card with Rectangles</title>
+  <link rel="stylesheet" href="app.component.css">
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <div class="grid">
+        <div class="cell">
+          <div class="square gray-square"></div>
+          <div class="rectangle overlay-rect" style="background-color: red;"></div>
+        </div>
+        <div class="cell">
+          <div class="square gray-square"></div>
+          <div class="rectangle overlay-rect" style="background-color: green;"></div>
+        </div>
+        <div class="cell">
+          <div class="square gray-square"></div>
+          <div class="rectangle overlay-rect" style="background-color: blue;"></div>
+        </div>
+        <div class="cell">
+          <div class="square gray-square"></div>
+          <div class="rectangle overlay-rect" style="background-color: green;"></div>
+        </div>
+        <div class="cell">
+          <div class="square gray-square"></div>
+          <div class="rectangle overlay-rect" style="background-color: blue;"></div>
+        </div>
+        <div class="cell">
+          <div class="square gray-square"></div>
+          <div class="rectangle overlay-rect" style="background-color: red;"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html><style>
   :host {
     --bright-blue: oklch(51.01% 0.274 263.83);
     --electric-violet: oklch(53.18% 0.28 296.97);
